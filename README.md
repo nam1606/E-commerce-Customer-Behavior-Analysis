@@ -247,14 +247,15 @@ python -m pytest test_validation.py -v --cov=utils --cov-report=term-missing
 
 ## 🖼️ Screenshots
 
-After running the app, you'll see:
+### 📊 Overview Tab
+KPI cards, event type distribution pie chart, daily event volume timeline, and session duration histogram.
 
-1. **📊 Overview Tab** — KPI cards, event distribution pie chart, daily event timeline
-2. **🔻 Funnel Tab** — Interactive funnel chart with conversion percentages
-3. **👥 Cohort Tab** — Monthly retention heatmap with cohort size comparison
-4. **🧩 Segments Tab** — Donut chart of user segments, metrics comparison, K-Means scatter
-5. **⏰ Time Tab** — Hour × day purchase heatmap, hourly event distribution
-6. **🏷️ Brands Tab** — Top brands comparison chart, brand conversion metrics table
+![Overview Tab](screenshots/overview_tab.png)
+
+### 🔻 Funnel Analysis Tab
+Interactive conversion funnel chart with stage-by-stage breakdown showing drop-off percentages at each step.
+
+![Funnel Tab](screenshots/funnel_tab.png)
 
 ---
 
